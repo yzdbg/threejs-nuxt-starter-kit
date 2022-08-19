@@ -17,7 +17,7 @@ export default {
       scene: new THREE.Scene(),
       camera: new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000),
       renderer: new THREE.WebGLRenderer(),
-      geometry: new THREE.SphereGeometry(15, 38, 20),
+      geometry: new THREE.SphereGeometry(15, 24, 16),
       material: new THREE.MeshBasicMaterial({
         color: 0x00ff00,
         wireframe: true
