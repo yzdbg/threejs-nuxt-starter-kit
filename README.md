@@ -6,8 +6,8 @@ A minimal nuxt/threejs starter kit (boilerplate)
 ## Tech Stack
 
 - [Vue](https://vuejs.org/), [NuxtJS](https://nuxtjs.org/), [ThreeJS](https://threejs.org/),
-- SOON : [Vite](https://vitejs.dev/),
-  [Prettier](https://prettier.io/), [Jest](https://jestjs.io/),
+- [Vite](https://vitejs.dev/),
+  [Prettier](https://prettier.io/),
   [Yarn](https://yarnpkg.com/)
 
 ## Requirements
