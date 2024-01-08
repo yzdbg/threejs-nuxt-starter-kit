@@ -11,6 +11,7 @@ jobs:
             - name: Comment a pull_request
               uses: mb2dev/github-action-comment-pull-request@1.0.0
               with:
-                message: "Hello, It's my first comment with Github action !"
+                message: "Please make sure to update the relevant documentation if needed [here](https://github.com/evercam/evercam-docs/issues/new?assignee=${{ github.event.pull_request.user.login }}title=${{ github.event.pull_request.title }})."
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-                reactions: "+1 | -1 | laugh | hooray | confused | heart | rocket | eyes"
+
+                
