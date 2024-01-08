@@ -11,7 +11,7 @@ jobs:
             - name: Comment a pull_request
               uses: mb2dev/github-action-comment-pull-request@1.0.0
               with:
-                message: "Please make sure to update the relevant documentation if needed [here](https://github.com/evercam/evercam-docs/issues/new?assignee=${{ github.event.pull_request.user.login }}title=${{ github.event.pull_request.title }})."
+                message: "@${{ github.event.pull_request.user.login }} Please make sure to update the relevant documentation if needed [here](https://github.com/evercam/evercam-docs/issues/new?assignee=${{ github.event.pull_request.user.login }})."
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
                 
